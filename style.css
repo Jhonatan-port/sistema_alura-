@@ -41,7 +41,7 @@ ul{
     background-image: url("./img/Background.png");
     background-repeat: no-repeat;/* não vai deixar a imagem e repetir independente do tamanho.*/
     background-size: contain;/*vai "estica-la" para o tamanho do container que ela esta inserida.*/
-    align-items: center;/* vai alinhar todas as seções do grid, conforme a altura*/
+    align-items: center;/* vai alinhar todas as seções do grid, se baseando no no alinhamento definido no flex-direction*/
     text-align: center;
 }
 
